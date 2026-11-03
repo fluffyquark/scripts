@@ -1,0 +1,10 @@
+{
+  "name": "device-tool",
+  "main": "worker.js",
+  "compatibility_date": "2026-10-01",
+  "workers_dev": false,
+  "preview_urls": false,
+  "observability": { "enabled": false },
+  "vars": { "MODE": "device" },
+  "routes": [ { "pattern": "device.example.com", "custom_domain": true } ]
+}

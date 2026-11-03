@@ -1,0 +1,12 @@
+{
+  "name": "redirect-net",
+  "main": "redirect.js",
+  "compatibility_date": "2026-10-01",
+  "workers_dev": false,
+  "preview_urls": false,
+  "observability": { "enabled": false },
+  "routes": [
+    { "pattern": "ip.example.net", "custom_domain": true },
+    { "pattern": "device.example.net", "custom_domain": true }
+  ]
+}
