@@ -7,7 +7,7 @@ No server, no database, no logging. One source file, deployed twice in two flavo
 - **`device.example.com`**: the full picture. Everything above, plus what your browser reveals about the device (client-side only).
 - **`curl`** gets a plain one-liner (just the IP). `/json` returns the server-side data as JSON.
 
-Why it exists and how it was built: see the write-up on the blog (linked at the bottom).
+Why it exists and how it was built: [the write-up on the notebook](https://fluffyquark.github.io/tools/2026/11/03/tiny-ip-and-device-tool-on-cloudflare-workers.html).
 
 ## Files
 
